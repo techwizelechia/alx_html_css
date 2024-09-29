@@ -1,0 +1,251 @@
+body{
+    background-image: url(Images/headphones_hero_1.jpg);
+    background-repeat: no-repeat;
+    width: 375px;
+  }
+   .logo_design {
+    margin-left: 100px;
+    margin-top: 29px;
+    width: 161px;
+    height: 32px;
+   }
+   .container{
+    margin-left: 9px;
+    width: 357px;
+    height: 436px;
+    margin-top: 297px;
+   }
+   .heading {
+    color: white;
+    width: 357px;
+    height: 80px;
+    font-size: 32px;
+    font-weight: bold;
+    margin-left: 20px;
+   }
+  .para1 {
+    color: white;
+    margin-left: 39px;
+    margin-top: 0px;
+  }
+  .callto{
+    border-radius: 90px;
+    border: none;
+    background-color: #ff6565;
+    color: white;
+    font-weight: bold;
+    width: 162px;
+    height: 44px;
+    margin-left: 97px;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-bottom: 30px;
+  }
+  .callto:hover {
+    background-color: #fa7c7c;
+  }
+
+  .para2{
+    color: white;
+    width: 335px;
+    height: 182px;
+    margin-left: 11px;
+    font-size: 16px;
+    margin-top: 30px;
+  }
+
+  .service {
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left:70px;
+  }
+  .para3 {
+    color:black;
+    width:325px ;
+    height: 288px;
+    margin-left:25px ;
+    font-size: 16px;
+    margin-top: 30px;
+  }
+
+  .content {
+    margin-left: 84px;
+    height: 1020px;
+    width: 207px;
+  }
+  .sound {
+    width: 207px;
+    height: 180px;
+  }
+  .sound img {
+    width: 94px;
+    height: 65.38px;
+    margin-left: 56px;
+  }
+  .sound h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size:20px ;
+    margin-top: 40px;
+    margin-top: 20px;
+  }
+  .sound p {
+    text-align: center;
+    width: 207px;
+    height: 52px;
+    margin-top: 10px;
+  }
+
+  .video {
+    width: 207px;
+    height: 180px;
+    margin-top: 60px;
+  }
+  .video img {
+    width: 67.59px;
+    height: 76.8px;
+    margin-left: 72px;
+  }
+  .video h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size:20px ;
+    margin-top: 20px;
+  }
+  .video p {
+    text-align: center;
+    width: 207px;
+    height: 52px;
+    margin-top: 10px;
+  }
+  .music {
+    width: 207px;
+    height: 180px;
+    margin-top: 60px;
+  }
+  .music img {
+    width: 51.66px;
+    height: 52.67px;
+    margin-left: 78px;
+
+  }
+  .music h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size:20px ;
+    margin-top: 20px;
+  }
+  .music p {
+    text-align: center;
+    width: 207px;
+    height: 52px;
+    margin-top: 10px;
+  }
+  .hear {
+    width: 207px;
+    height: 180px;
+    margin-top: 60px;
+  }
+  .hear img {
+    width: 61.43px;
+    height: 61.44px;
+    margin-left: 74px;
+  }
+  .hear h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size:20px ;
+    margin-top: 20px;
+  }
+  .hear p {
+    text-align: center;
+    width: 207px;
+    height: 52px;
+    margin-top: 10px;
+  }
+  @media screen and ( min-width:768px) {
+    .heading{ margin-left:66px;
+    width: 576px;
+    height: 40px;
+    font-size: 32px;
+    }
+    .logo_design{
+    margin-left: 66px;
+    width: 161px;
+    height: 32px;
+    margin-top: 29px;
+    }
+    .container{
+      margin-left: 66px;
+      width: 637px;
+      height: 313px;
+      margin-top: 300px;
+      text-align: center;
+     }
+     .para2{
+      width: 637px;
+      height: 104px;
+    }
+    .service {
+      width: 192px;
+      height: 40px;
+      margin-left:300px;
+      font-size: 32px;
+      margin-top: 100px;
+    }
+    .para3 {
+      width:637px ;
+      height: 104px;
+      font-size: 16px;
+      margin-top: 30px;
+      text-align: center;
+      margin-left: 50px;
+    }
+    .content {
+     width: 472px;
+     height: 469px;
+    }
+    .video {
+      margin-left: 360px;
+      margin-top: -190px;
+    }
+    .sound {
+      margin-top: 50px;
+    }
+    .hear {
+      margin-left: 360px;
+      margin-top: -190px;
+    }
+
+    }
+    @media screen and (min-width:1280px)  {
+      .logo_design {
+        margin-left: 200.61pxpx;
+        margin-top: 27.76px;
+       }
+       .container{
+        margin-left: 300px;
+        width: 637px;
+        height: 313px;
+        margin-top: 289px;
+        text-align: center;
+       }
+       .service {
+        margin-left:600px;
+      }
+      .para3 {
+        margin-left: 360px;
+      }
+      .music{
+        margin-left: 630px;
+        margin-top: -155px;
+      }
+      .hear{
+        margin-left: 900px;
+      }
+      .video {
+        margin-left: 320px;
+      }
+
+    }

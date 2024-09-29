@@ -1,0 +1,92 @@
+body{
+  background-image: url(Images/headphones_hero_1.jpg);
+  background-repeat: no-repeat;
+  width: 375px;
+}
+ .logo_design {
+  margin-left: 100px;
+  margin-top: 29px;
+  width: 161px;
+  height: 32px;
+ }
+ .container{
+  margin-left: 9px;
+  width: 357px;
+  height: 436px;
+  margin-top: 297px;
+ }
+ .heading {
+  color: white;
+  width: 357px;
+  height: 80px;
+  font-size: 32px;
+  font-weight: bold;
+  margin-left: 20px;
+ }
+.para1 {
+  color: white;
+  margin-left: 39px;
+  margin-top: 0px;
+}
+.callto{
+  border-radius: 90px;
+  border: none;
+  background-color: #ff6565;
+  color: white;
+  font-weight: bold;
+  width: 162px;
+  height: 44px;
+  margin-left: 97px;
+  margin-top: 20px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+.callto:hover {
+  background-color: #fa7c7c;
+}
+
+.para2{
+  color: white;
+  width: 335px;
+  height: 182px;
+  margin-left: 11px;
+  font-size: 16px;
+  margin-top: 30px;
+}
+@media screen and ( min-width:768px) {
+.heading{ margin-left:66px;
+width: 576px;
+height: 40px;
+font-size: 32px;
+}
+.logo_design{
+margin-left: 66px;
+width: 161px;
+height: 32px;
+margin-top: 29px;
+}
+.container{
+  margin-left: 66px;
+  width: 637px;
+  height: 313px;
+  margin-top: 300px;
+  text-align: center;
+ }
+ .para2{
+  width: 637px;
+  height: 104px;
+}
+}
+@media screen and (min-width:1280px)  {
+  .logo_design {
+    margin-left: 200.61pxpx;
+    margin-top: 27.76px;
+   }
+   .container{
+    margin-left: 300px;
+    width: 637px;
+    height: 313px;
+    margin-top: 289px;
+    text-align: center;
+   }
+}
